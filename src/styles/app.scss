@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+// Nav
+
+.nav {
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+}
+
+.nav p {
+  margin: 12px;
+  display: inline-block;
+}
+.nav li {
+  float: left;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+.link {
+  min-width: 100px;
+  background-color: white;
+  display: block;
+  height: 50px;
+  color: black;
+  text-align: center;
+}
+
+.link:hover {
+  color: #4f8ac9;
+}
+
+//main
+
+main {
+  background-color: white;
+  height: 90vh;
+}
+
+main h2 {
+  color: #4f8ac9;
+  margin-top: 15px;
+}
+
+main > p {
+  text-align: center;
+  margin: 30px;
+}
+
+/* filter/chart */
+
+.filter-div {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  float: right;
+  right: 20px;
+  top: +70px;
+}
+
+button,
+select {
+  padding: 5px;
+  background-color: #4f8ac9;
+  color: white;
+  text-align: center;
+  border: 0px;
+  border-radius: 20px;
+  height: 30px;
+  width: 175px;
+  margin: 2px;
+}
+
+.filter {
+  margin-top: 10px;
+  color: black;
+}
+
+.filter label input {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+// footer
+
+footer {
+  background-color: #d5e7f9;
+  height: 90px;
+}

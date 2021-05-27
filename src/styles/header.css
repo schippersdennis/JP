@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#headerLogoWinc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  width: auto;
+  margin-left: 20px;
+}
+
+header {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+}
+
+header h2 {
+  color: #4f8ac9;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+h3 {
+  color: #4f8ac9;
+  text-align: center;
+  margin: auto;
+}
+
+i {
+  margin: 2px;
+}
+
+.break {
+  background-color: #d5e7f9;
+  height: 20px;
+  width: auto;
+}
+
+.smallText--left {
+  text-align: left;
+  font-style: normal;
+  font-size: 10px;
+  position: relative;
+  top: 5px;
+  margin-left: 20px;
+}
+
+.smallText--right {
+  text-align: right;
+  font-style: normal;
+  font-size: 10px;
+  position: relative;
+  top: -6px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=header.css.map */
